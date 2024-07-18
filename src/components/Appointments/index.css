@@ -1,0 +1,129 @@
+.background-container {
+  background-image: linear-gradient(to left, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px solid #b5b7c4;
+  padding-bottom: 15px;
+  margin-top: 0px;
+}
+.heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #171f46;
+  margin-bottom: 55px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #b5b7c4;
+  line-height: 0;
+}
+.input-style {
+  width: 250px;
+  padding: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #b5b7c4;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button {
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  margin-top: 15px;
+}
+.starred-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn1 {
+  margin-top: 0px;
+}
+.heading1 {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #171f46;
+}
+.form-container1 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px solid #b5b7c4;
+  padding-bottom: 15px;
+  margin-top: 0px;
+}
+.unorder-list {
+  padding: 0px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  min-height: 1vh;
+  max-height: 14vh;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    display: none;
+  }
+  .heading1 {
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #171f46;
+  }
+  .form-container1 {
+    width: 100%;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .inner-container {
+    width: 96%;
+  }
+  .unorder-list {
+    width: 100%;
+  }
+}
